@@ -38,10 +38,18 @@ git clone https://github.com/yourusername/cognitia.git
 
 cd cognitia
 
+```
+### 2. Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
-For .env
+### 3. Setup .env
+```bash
 OPENAI_API_KEY=your-groq-or-openai-api-key
 OPENAI_API_BASE=https://api.groq.com/openai/v1
-
+```
+### 4. Run the Assistant
+```bash
 python main.py
+```
